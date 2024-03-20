@@ -1,5 +1,6 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   include RackSessionsFix
+  before_action :configure_sign_up_params, only: [:create]
   respond_to :json
 
   def respond_with(resource, _opts = {})
@@ -17,5 +18,11 @@ class Users::RegistrationsController < Devise::RegistrationsController
       status: {code: 422, message: "User couldn't be created successfully. #{resource.errors.full_messages.to_sentence}"}
     }, status: :unprocessable_entity
   end
+end
+
+protected 
+
+def configure_sign_up_params
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:username])
 end
 end

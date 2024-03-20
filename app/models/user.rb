@@ -6,6 +6,8 @@ class User < ApplicationRecord
 
     has_many :reservations
 
+    validates :username, :email, presence: true
+
     def self.signin_or_create_from_provider(provider_data)
       where(provider: provider_data[:provider], uid: provider_data[:uid]).first_or_create do |user|
         user.email = provider_data[:info][:email]

@@ -11,6 +11,12 @@ Rails.application.routes.draw do
   }
 
   post 'social_auth/callback', to: 'social_auth#authenticate_social_auth_user'
+
+  namespace :api do
+    namespace :v1 do
+      resources :destinations, only: [:index, :show]
+    end
+  end
  
   root "users#index"
 end
