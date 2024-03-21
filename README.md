@@ -15,6 +15,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Kanban Board](#kanban-board)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -62,6 +63,15 @@
 - **[Api only application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Kanban Board <a name="kanban-board"></a>
+
+- Here is the link to the projects kanban board we set up.[Click here](https://github.com/luigirazum/book-destinations-api/projects/1).
+- We started collaborating in a team of 3 but currently, we are 2 members.
+
+ ![image](https://github.com/Obimbo07/book-destinations/assets/118368849/f1f1b552-c8a6-4c5f-a489-757f687a7c97)
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
