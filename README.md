@@ -36,7 +36,7 @@
 # 📖 [Book Destinations Api] <a name="about-project"></a>
 
 
-**[Book Destinations Api]** is a Api only application that acts as the server for the client app. The application provides data through api and also handle user authentication. Here is a link to the Client App. [FrontEnd](https://github.com/Obimbo07/hello-rails-frontend/tree/feature/app-setup).
+**[Book Destinations Api]** is a Api only application that acts as the server for the client app. The application provides data through api and also handle user authentication. Here is a link to the Client App. [FrontEnd](https://github.com/Obimbo07/book-destinations/pull/1)
 
 ## 🛠 Built With <a name="built-with"></a>
 
