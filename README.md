@@ -134,6 +134,13 @@ To run the project, execute the following command:
 
 Example command:
 
+1. Remove config/master.key and config/credentials.yml.enc if they exist.
+2. Run in the terminal: EDITOR=code rails credentials:edit 
+3. Close the editor that opens.
+4. This command will create a new master.key and credentials.yml.enc if they do not exist.
+
+- rails db:create, rails db:migrate
+
 ```sh
   rails server
 ```
@@ -234,7 +241,7 @@ If you like this project give it a Star and come contribute new features. We wel
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./License) licensed.
+This project is [MIT](/License) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
