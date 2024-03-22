@@ -59,14 +59,14 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[Database schema contains messages table to store data]**
+- **[Database schema containing the User data, Destination and Reserve]**  
 - **[Api only application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Kanban Board <a name="kanban-board"></a>
 
-- Here is the link to the projects kanban board we set up.[Click here](https://github.com/luigirazum/book-destinations-api/projects/1).
+- Here is the link to the projects Kanban board we set up.[Click here](https://github.com/luigirazum/book-destinations-api/projects/1).
 - We started collaborating in a team of 3 but currently, we are 2 members.
 
  ![image](https://github.com/Obimbo07/book-destinations/assets/118368849/f1f1b552-c8a6-4c5f-a489-757f687a7c97)
@@ -110,7 +110,7 @@ Example commands:
 
 ```sh
   cd book-destinations-api
-  git clone git@github.com:/.git
+  git clone https://github.com/obimbo07/book-destinations-api.git
 ```
 -
 
@@ -212,7 +212,8 @@ If you like this project give it a Star and come contribute new features. We wel
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-We would like to thank microverse for their guidance on the project.
+- We would like to thank microverse for their guidance on the project.
+ - We also love to thank the Murat Korkmaz on Behance who provided us with the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,7 +225,7 @@ We would like to thank microverse for their guidance on the project.
 
 - **[Can I contribute?]**
 
-  - [Yes, your welcome to contribute, We value pair-programming]
+  - [Yes, you are welcome to contribute, We value pair programming]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
