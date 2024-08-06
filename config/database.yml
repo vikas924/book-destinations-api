@@ -15,6 +15,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  url: <%= Rails.application.credentials.DATABASE_URL %>
+
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -80,5 +82,4 @@ test:
 production:
   <<: *default
   database: book_destinations_api_production
-  username: book_destinations_api
-  password: <%= ENV["DATABASE_URL"] %>
+  url: <%= Rails.application.credentials.DATABASE_URL %>
