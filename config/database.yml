@@ -82,4 +82,4 @@ test:
 production:
   <<: *default
   database: book_destinations_api_production
-  url: <%= Rails.application.credentials.DATABASE_URL %>
+  url: <%= ENV["DATABASE_URL"] %>
